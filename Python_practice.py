@@ -59,3 +59,13 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829}, {"county":"De
 
 for county_dict in voting_data:
     print(f"{county_dict['county']} county has {county_dict['registered_voters']} registered voters.")
+
+# Assign a variable for the file to load and the path.
+file_to_load = 'Resources/election_results.csv'
+
+# Open the election results and read the file
+with open(file_to_load) as election_data:
+
+     # To do: perform analysis.
+     print(election_data)
+
